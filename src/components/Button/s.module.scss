@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 20px;
+  background-color: rgb(39, 205, 75);
+  width: fit-content;
+  align-self: center;
+  color: white;
+  border: 2px solid rgb(145, 141, 141);
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: ease-in-out 300ms opacity;
+  margin: 10px 0;
+  &:hover {
+    opacity: 1;
+  }
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.buttonDelete {
+  background-color: rgb(212, 32, 32);
+}
